@@ -1,12 +1,3 @@
-// Seleccionar el botón del menú hamburguesa y el contenedor del menú
-const menuToggle = document.querySelector(".menu-toggle");
-const nav = document.querySelector("header nav");
-
-// Escuchar el evento "click" en el botón hamburguesa
-menuToggle.addEventListener("click", () => {
-    nav.classList.toggle("open");
-});
-
 console.log("El archivo script.js se está ejecutando correctamente.");
 
 function cerrarCintilla() {
